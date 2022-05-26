@@ -82,14 +82,14 @@ While the intended use of the collected OOD data is to evalute vision-language m
 
 If you use our benchmark or the code in this repo, please consider cite our paper `\cite{zhou2022vlue}`.
 ```
-@article{xx,
-      author    = {xx},
-      title     = {xx},
+@article{zhou2022vlue,
+      author    = {Wangchunshu Zhou and Yan Zeng and Shizhe Diao and Xinsong Zhang},
+      title     = {VLUE: A Multi-Task Benchmark for Evaluating Vision-Language Models},
       journal   = {CoRR},
-      volume    = {abs/2003.11080},
-      year      = {2020},
+      volume    = {abs/2205.xxxx},
+      year      = {2022},
       archivePrefix = {arXiv},
-      eprint    = {2003.11080}
+      eprint    = {2205.xxxx}
 }
 ```
 Please consider including a note similar to the one below to make sure to cite all the individual datasets in your paper.
