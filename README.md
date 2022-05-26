@@ -4,6 +4,7 @@
 [**Baselines**](#build-a-baseline-system) |
 [**Leaderboard**](https://vlue-benchmark.github.io/leaderboard.html) |
 [**Website**](https://vlue-benchmark.github.io) |
+[**Efficiency**](#efficiency-performance-trade-off)
 [**Paper**](https://arxiv.org/pdf/2205.xxxx.pdf) 
 
 This repository contains information about the Vision-Language Understanding Evaluation (VLUE) benchmark, instructions for downloading data, and
@@ -55,7 +56,6 @@ python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output
 ```
 
 
-
 # Leaderboard
 
 ## Leaderboard Results
@@ -66,6 +66,11 @@ python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output
 ## Submissions
 
 You are welcome to test your vision-language models on the VLUE benchmark! Labeled OOD test sets and evaluation scripts are released in the repo. After obtaining results, you are welcome email [**VLUE team**](wcszhou@outlook.com) to get your model included in the [**VLUE Learderboard**](https://vlue-benchmark.github.io/VLUE-website/leaderboard.html). Your email should contain information displayed in the leaderboard (i.e., paper link/description, results on original test sets and OOD test sets.)  
+
+# Efficiency-Performance Trade-off
+
+We also encourage researchers to report the efficiency-performance trade-off of their models in their paper to measure the "Pareto improvement" on training vision-language models. We consider the actual inference time as the main efficiency metric. However, the actual inference time of different models depends on hardware. Therefore, you are welcome to measure and compare the actual inference time of your models and baselines by yourself.
+ We provide the code for measuring actual inference time of in the above example.
 
 # Other Usage
 
