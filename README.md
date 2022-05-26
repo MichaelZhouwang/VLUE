@@ -2,32 +2,36 @@
 
 [**Tasks**](#tasks-and-languages) | [**Download**](#download-the-data) |
 [**Baselines**](#build-a-baseline-system) |
-[**Leaderboard**](https://vlue-benchmark.github.io/VLUE-website/leaderboard.html) |
-[**Website**](https://vlue-benchmark.github.io/VLUE-website) |
-[**Paper**](https://arxiv.org/pdf/2003.11080.pdf) 
+[**Leaderboard**](https://vlue-benchmark.github.io/leaderboard.html) |
+[**Website**](https://vlue-benchmark.github.io) |
+[**Paper**](https://arxiv.org/pdf/2205.xxxx.pdf) 
 
 This repository contains information about the Vision-Language Understanding Evaluation (VLUE) benchmark, instructions for downloading data, and
 implementations of baseline systems for the benchmark.
 
 # Introduction
 
-The Vision-Language Understanding Evaluation (VLUE) benchmark is a benchmark for the evaluation of the generalization ability and efficiency-performance trade-off of pre-trained vision-language models. It benchmarks the performance of popular vision-language pre-trained models on the VLUE tasks and also provides a suite of newly croudsourced out-of-distribution (OOD) test sets for each of the four tasks to benchmark the true generalization ability of vision-language pre-trained models.
+The Vision-Language Understanding Evaluation (VLUE) benchmark is a benchmark for the evaluation of the generalization ability and efficiency-performance trade-off of pre-trained vision-language models. It benchmarks the performance of popular vision-language pre-trained models on representative Vision-Language tasks and also provides a suite of newly croudsourced out-of-distribution (OOD) test sets for each of the tasks, which are used to benchmark the true generalization/transfer ability of pre-trained vision-language models.
 
-For a full description of the benchmark, see [the paper](https://arxiv.org/abs/2003.11080).
+For a full description of the benchmark, see [the paper](https://arxiv.org/abs/2205.xxxx).
 
 # Tasks and OOD Test Sets
 
-VLUE covers 4 representative vision-and-language understanding tasks including Image-Text Retrieval, Visual Grouding, Visual Reasoning, and Visual Question Answering. The full description of tasks and datasets can be seen in the image below.  
+VLUE covers 4 representative vision-and-language understanding tasks including Image-Text Retrieval, Visual Grouding, Visual Reasoning, and Visual Question Answering. Statistics of datasets are shown in the image below.
 
-![The datasets used in XTREME](vlue_tasks.png)
+![Statistics of datasets in VLUE](vlue_tasks.png)
 
-We crowdsource OOD test sets for the 4 tasks in the VLUE benchmark using the raw images from the [MaRVL dataset](https://marvl-challenge.github.io), which contains images from a diverse distribution across countries and cultures. We hire human annotators to contruct test examples for the four tasks using the raw images following the annotation instructions from the original datasets.
+We crowdsource OOD test sets for the 4 tasks in the VLUE benchmark using the raw images from the [MaRVL dataset](https://marvl-challenge.github.io), which contains images from a diverse distribution across countries and cultures. We hire human annotators to contruct test examples for the four tasks using the raw images following the annotation instructions from the original datasets.  Note that the Image-Text Retrieval OOD test set can also be used to evaluate image captioning models.
 
 # Download the data
 
 We provide intructions to download the data for both the original in-domain datasets and the private OOD test sets.
 
 The images and annotations for the train, dev, and test set of the in-domain datasets can be downloaded [here](https://drive.google.com/file/d/1XFz1Vtz7MCBLn4_1QEojhFJ5Iw3eH3X4/view?usp=sharing).
+
+The images used in the GLUE dataset can be downloaded in the [MaRVL website](https://marvl-challenge.github.io/download).
+
+The annotations for the OOD test sets are included in the data folder.
 
 
 # Build a baseline system
@@ -58,7 +62,7 @@ To submit your predicitons to [**VLUE**](https://vlue-benchmark.github.io/VLUE-w
 
 # Paper
 
-If you use our benchmark or the code in this repo, please cite our paper `\cite{hu2020xtreme}`.
+If you use our benchmark or the code in this repo, please cite our paper `\cite{zhou2022vlue}`.
 ```
 @article{xx,
       author    = {xx},
@@ -72,7 +76,7 @@ If you use our benchmark or the code in this repo, please cite our paper `\cite{
 ```
 Please consider including a note similar to the one below to make sure to cite all the individual datasets in your paper.
 
-We experiment on the VLUE benchmark `\cite{xx}`, a multi-task multi-dimension benchmark for visual-language understanding evaluation consisting of data from the MSCOCO Caption `\cite{chen2015microsoft}`, RefCOCO `\cite{yu2016modeling}`, NLVR2 `\cite{suhr2018corpus}`, VQA 2.0 `\cite{goyal2017making}` datasets, and raw images from the MaRVL dataset `\cite{goyal2017making}` for the private OOD test set.  We provide their BibTex information as follows.
+We experiment on the VLUE benchmark `\cite{zhou2022vlue}`, a multi-task multi-dimension benchmark for visual-language understanding evaluation consisting of data from the MSCOCO Caption `\cite{chen2015microsoft}`, RefCOCO `\cite{yu2016modeling}`, NLVR2 `\cite{suhr2018corpus}`, VQA 2.0 `\cite{goyal2017making}` datasets, and raw images from the MaRVL dataset `\cite{goyal2017making}` for the private OOD test set.  We provide their BibTex information as follows.
 ```
 @article{chen2015microsoft,
   title={Microsoft coco captions: Data collection and evaluation server},
