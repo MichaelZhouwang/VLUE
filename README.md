@@ -1,6 +1,6 @@
 # VLUE: A Multi-task Multi-Dimension Benchmark for Evaluating Vision-Language Pre-training
 
-[**Tasks**](#tasks-and-languages) | [**Download**](#download-the-data) |
+[**Tasks**](#tasks-and-OOD-test-sets) | [**Download**](#download-the-data) |
 [**Baselines**](#build-a-baseline-system) |
 [**Leaderboard**](https://vlue-benchmark.github.io/leaderboard.html) |
 [**Website**](https://vlue-benchmark.github.io) |
@@ -36,7 +36,7 @@ The annotations for the OOD test sets are included in the data folder.
 
 # Build a baseline system
 
-We provide the examples to run VLUE test on [X-VLM](https://github.com/zengyan-97/X-VLM) as follows: 
+We provide the examples to evalute on VLUE OOD test sets with [X-VLM](https://github.com/zengyan-97/X-VLM) as follows: 
 ```angular2html
 cp -r data/ xvlm/data/vlue_released
 cd xvlm
@@ -54,11 +54,16 @@ python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output
 
 
 
-# Leaderboard Submission
+# Leaderboard
+
+## Leaderboard Results
+
+![VLUE Leaderboard](vlue_results.png)
+
 
 ## Submissions
-To submit your predicitons to [**VLUE**](https://vlue-benchmark.github.io/VLUE-website) following the instructions in the [**VLUE Learderboard**](https://vlue-benchmark.github.io/VLUE-website/leaderboard.html).
 
+You are welcome to test your vision-language models on the VLUE benchmark! Labeled OOD test sets and evaluation scripts are released in the repo. After obtaining results, you are welcome email [**VLUE team**](wcszhou@outlook.com) to get your model included in the [**VLUE Learderboard**](https://vlue-benchmark.github.io/VLUE-website/leaderboard.html). Your email should contain information displayed in the leaderboard (i.e., paper link/description, results on original test sets and OOD test sets.)  
 
 # Paper
 
