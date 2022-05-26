@@ -1,4 +1,4 @@
-# VLUE: A Multi-task Multi-Dimension Benchmark for Evaluating Vision-Language Pre-training
+# VLUE: A Multi-task Benchmark for Evaluating Vision-Language Pre-training
 
 [**Tasks**](#tasks-and-OOD-test-sets) | [**Download**](#download-the-data) |
 [**Baselines**](#build-a-baseline-system) |
@@ -70,7 +70,9 @@ You are welcome to test your vision-language models on the VLUE benchmark! Label
 # Efficiency-Performance Trade-off
 
 We also encourage researchers to report the efficiency-performance trade-off of their models in their paper to measure the "Pareto improvement" on training vision-language models. We consider the actual inference time as the main efficiency metric. However, the actual inference time of different models depends on hardware. Therefore, you are welcome to measure and compare the actual inference time of your models and baselines by yourself.
- We provide the code for measuring actual inference time of in the above example.
+ We provide the code for measuring actual inference time of in the above example.  
+ 
+We provide the actual inference time of popular vision-language models in our setting (1 Nvidia Tesla V100 GPU and a batch size of 1) in the Appendix of our paper for reference.  
 
 # Other Usage
 
