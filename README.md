@@ -21,7 +21,9 @@ VLUE covers 4 representative vision-and-language understanding tasks including I
 
 ![Statistics of datasets in VLUE](vlue_tasks.png)
 
-We crowdsource OOD test sets for the 4 tasks in the VLUE benchmark using the raw images from the [MaRVL dataset](https://marvl-challenge.github.io), which contains images from a diverse distribution across countries and cultures. We hire human annotators to contruct test examples for the four tasks using the raw images following the annotation instructions from the original datasets.  Note that the Image-Text Retrieval OOD test set can also be used to evaluate image captioning models.
+We crowdsource OOD test sets for the 4 tasks in the VLUE benchmark using the raw images from the [MaRVL dataset](https://marvl-challenge.github.io), which contains images from a diverse distribution across countries and cultures. We hire human annotators to contruct test examples for the four tasks using the raw images following the annotation instructions from the original datasets.  
+
+Note that the Image-Text Retrieval OOD test set can also be used to evaluate image captioning models.  
 
 # Download the data
 
