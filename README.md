@@ -1,11 +1,11 @@
 # VLUE: A Multi-task Benchmark for Evaluating Vision-Language Pre-training
 
+[**Paper**](https://arxiv.org/pdf/2205.xxxx.pdf) |
 [**Tasks**](#tasks-and-OOD-test-sets) | [**Download**](#download-the-data) |
 [**Baselines**](#build-a-baseline-system) |
 [**Leaderboard**](https://vlue-benchmark.github.io/leaderboard.html) |
 [**Website**](https://vlue-benchmark.github.io) |
 [**Efficiency**](#efficiency-performance-trade-off)
-[**Paper**](https://arxiv.org/pdf/2205.xxxx.pdf) 
 
 This repository contains information about the Vision-Language Understanding Evaluation (VLUE) benchmark, instructions for downloading data, and
 implementations of baseline systems for the benchmark.
