@@ -58,7 +58,7 @@ python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output
 
 ## Leaderboard Results
 
-![VLUE Leaderboard](vlue_results.png)
+![VLUE Leaderboard](VLUE_leaderboard.png)
 
 
 ## Submissions
