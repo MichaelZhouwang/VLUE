@@ -11,7 +11,7 @@ implementations of baseline systems for the benchmark.
 
 # Introduction
 
-The Vision-Language Understanding Evaluation (VLUE) benchmark is a benchmark for the evaluation of the generalization ability and efficiency-performance trade-off of pre-trained vision-language models. It benchmarks the performance of popular vision-language pre-trained models on representative Vision-Language tasks and also provides a suite of newly croudsourced out-of-distribution (OOD) test sets for each of the tasks, which are used to benchmark the true generalization/transfer ability of pre-trained vision-language models.
+The Vision-Language Understanding Evaluation (VLUE) benchmark is a benchmark for the evaluation of the generalization ability and efficiency-performance trade-off of pre-trained vision-language models. It benchmarks the performance of popular pre-trained vision-language models on representative Vision-Language tasks and also provides a suite of newly croudsourced out-of-distribution (OOD) test sets for each of the tasks, which are used to benchmark the true generalization/transfer ability of pre-trained vision-language models.
 
 For a full description of the benchmark, see [the paper](https://arxiv.org/abs/2205.xxxx).
 
@@ -65,9 +65,13 @@ python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output
 
 You are welcome to test your vision-language models on the VLUE benchmark! Labeled OOD test sets and evaluation scripts are released in the repo. After obtaining results, you are welcome email [**VLUE team**](wcszhou@outlook.com) to get your model included in the [**VLUE Learderboard**](https://vlue-benchmark.github.io/VLUE-website/leaderboard.html). Your email should contain information displayed in the leaderboard (i.e., paper link/description, results on original test sets and OOD test sets.)  
 
-# Paper
+# Other Usage
 
-If you use our benchmark or the code in this repo, please cite our paper `\cite{zhou2022vlue}`.
+While the intended use of the collected OOD data is to evalute vision-language models via direct OOD generalization (i.e., fine-tune on original datasets then directly test on OOD test sets), it is also possible to fine-tune, or few-shot fine-tune on a subset of the provided OOD data for other research settings such as transfer learning and domain adaptation.
+
+# Citation
+
+If you use our benchmark or the code in this repo, please consider cite our paper `\cite{zhou2022vlue}`.
 ```
 @article{xx,
       author    = {xx},
