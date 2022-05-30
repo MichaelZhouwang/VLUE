@@ -50,6 +50,8 @@ python3 run.py --task "eval_vlue_vqa" --dist "1" --evaluate  --output_dir "outpu
 
 python3 run.py --task "eval_vlue_nlvr" --dist "1" --evaluate  --output_dir "output/" --checkpoint "nlvr/nlvr_ft/checkpoint_best.pth"
 
+python3 run.py --task "eval_vlue_captioning" --dist "1" --evaluate  --output_dir "output/" --checkpoint "coco_caption/coco_capt_ft_epoch_4.th"
+
 python3 run.py --task "eval_vlue_refcoco" --dist "1" --evaluate  --output_dir "output/" --checkpoint "refcoco_bbox/checkpoint_best.pth"
 
 python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output_dir "output/" --checkpoint "refcoco/checkpoint_best.pth"
