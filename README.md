@@ -1,6 +1,6 @@
 # VLUE: A Multi-task Benchmark for Evaluating Vision-Language Pre-training
 
-[**Paper**](https://arxiv.org/pdf/2205.xxxx.pdf) |
+[**Paper**](https://arxiv.org/pdf/2205.15237.pdf) |
 [**Tasks**](#tasks-and-OOD-test-sets) | [**Download**](#download-the-data) |
 [**Baselines**](#build-a-baseline-system) |
 [**Leaderboard**](https://vlue-benchmark.github.io/leaderboard.html) |
@@ -67,7 +67,7 @@ python3 run.py --task "eval_vlue_refcoco_weakly" --dist "1" --evaluate  --output
 
 ## Submissions
 
-You are welcome to test your vision-language models on the VLUE benchmark! Labeled OOD test sets and evaluation scripts are released in the repo. After obtaining results, you are welcome email [**VLUE team**](wcszhou@outlook.com) to get your model included in the [**VLUE Learderboard**](https://vlue-benchmark.github.io/VLUE-website/leaderboard.html). Your email should contain information displayed in the leaderboard (i.e., paper link/description, results on original test sets and OOD test sets.)  
+You are welcome to test your vision-language models on the VLUE benchmark! Labeled OOD test sets and evaluation scripts are released in the repo. After obtaining results, you are welcome email [**VLUE team**](wcszhou@outlook.com) to get your model included in the [**VLUE Learderboard**](https://vlue-benchmark.github.io/leaderboard.html). Your email should contain information displayed in the leaderboard (i.e., paper link/description, results on original test sets and OOD test sets.)  
 
 # Efficiency-Performance Trade-off
 
@@ -88,10 +88,10 @@ If you use our benchmark or the code in this repo, please consider cite our pape
       author    = {Wangchunshu Zhou and Yan Zeng and Shizhe Diao and Xinsong Zhang},
       title     = {VLUE: A Multi-Task Benchmark for Evaluating Vision-Language Models},
       journal   = {CoRR},
-      volume    = {abs/2205.xxxx},
+      volume    = {abs/2205.15237},
       year      = {2022},
       archivePrefix = {arXiv},
-      eprint    = {2205.xxxx}
+      eprint    = {2205.15237}
 }
 ```
 Please consider including a note similar to the one below to make sure to cite all the individual datasets in your paper.
