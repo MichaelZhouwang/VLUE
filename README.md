@@ -78,7 +78,7 @@ We provide the actual inference time of popular vision-language models in our se
 
 # Other Usage
 
-While the intended use of the collected OOD data is to evalute vision-language models via direct OOD generalization (i.e., fine-tune on original datasets then directly test on OOD test sets), it is also possible to fine-tune, or few-shot fine-tune on a subset of the provided OOD data for other research settings such as transfer learning and domain adaptation.
+While the intended use of the collected OOD data is to evaluate vision-language models via direct OOD generalization (i.e., fine-tune on original datasets then directly test on OOD test sets), it is also possible to fine-tune, or few-shot fine-tune on a subset of the provided OOD data for other research settings such as few-shot/in context multi-modal learning, transfer learning, and domain adaptation.
 
 # Citation
 
