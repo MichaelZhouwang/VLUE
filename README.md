@@ -7,8 +7,7 @@
 [**Website**](https://vlue-benchmark.github.io) |
 [**Efficiency**](#efficiency-performance-trade-off)
 
-This repository contains information about the Vision-Language Understanding Evaluation (VLUE) benchmark, instructions for downloading data, and
-implementations of baseline systems for the benchmark.
+This repository contains information about the Vision-Language Understanding Evaluation (VLUE) benchmark (ICML 2022), instructions for downloading data, and implementations of baseline systems for the benchmark.
 
 # Introduction
 
